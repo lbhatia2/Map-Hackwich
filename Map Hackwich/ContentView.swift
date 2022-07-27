@@ -68,7 +68,7 @@ struct Marker: View {
             }
             Capsule()
                 .fill(.red)
-                .frame(width: 200, height: 300, alignment: .center)
+                .frame(width: 200, height: 30, alignment: .center)
             Text(name)
         }
     }
