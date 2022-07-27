@@ -41,7 +41,7 @@ struct ContentView: View {
             return
         }
             for placemark in placemarks! {
-                let place = Place(name: "\(placemark.name!), \(placemark.administrativeArea)", coordinate: placemark.location!.coordinate)
+                let place = Place(name: "\(placemark.name!), \(placemark.administrativeArea!)", coordinate: placemark.location!.coordinate)
                 places.append(place)
             }
         }
